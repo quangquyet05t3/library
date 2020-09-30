@@ -1,3 +1,5 @@
+Tham khảo video https://www.youtube.com/watch?v=B2DFoO_CMwQ
+
 cd to [your-path]/library
 
 Gõ lệnh composer init
@@ -33,5 +35,17 @@ Phía sau "authors" thêm
 
 Commit và push project lên github
 
+
+Vào trang https://packagist.org/ tạo account nếu chưa có
+
+Vào https://packagist.org/packages/submit
+Nhập vào https://github.com/quangquyet05t3/library
+và Submit
+
+Tạo Tag 1.0 cho source code trên github
+
+Bật command gõ: composer require train/library
+
+Xong
 
 
