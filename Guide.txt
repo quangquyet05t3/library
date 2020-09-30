@@ -1,0 +1,37 @@
+cd to [your-path]/library
+
+Gõ lệnh composer init
+
+<vendor/name> điền vào: train/library
+
+Description: This library to test
+
+Author:
+
+Minimum Stability:
+
+Package Type: library
+
+License: MIT
+
+Would you like to define your dependencies (require): n
+
+Would you like to define your dev dependencies (require-dev): n
+
+Do you confirm generation: yes
+
+Lúc này đã gen ra file composer.json
+
+Mở file composer.json
+
+Phía sau "authors" thêm
+"autoload": {
+    "psr-4": {
+        "ZendVN\\": "src/ZendVN"
+    }
+},
+
+Commit và push project lên github
+
+
+

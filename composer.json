@@ -1,0 +1,19 @@
+{
+    "name": "train/library",
+    "description": "This library to test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "quyet le",
+            "email": "quyet@whl.travel"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZendVN\\": "src/ZendVN"
+        }
+    },
+
+    "require": {}
+}
